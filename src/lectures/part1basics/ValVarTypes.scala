@@ -1,5 +1,7 @@
 package lectures.part1basics
 
+import lectures.print.{Hey, Print}
+
 object ValVarTypes extends App {
   var x = 2.2;
   var y = x;
@@ -13,7 +15,10 @@ object ValVarTypes extends App {
     println(s"Hello $name, $surname")
   };
 
+  Print.ln(20);
   hello("Вася", "Пупкин");
+  Hey.sayHi("Сашка")
+  Print.ln(20);
 
   val aBoolean: Boolean = false;
   val aChar: Char = 'a';
