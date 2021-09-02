@@ -29,4 +29,8 @@ object Expressions extends App {
   }
 
   println(aCodeBLock);
+
+  val addOne = (x: Int) => 1 + x;
+
+  println(addOne(2))
 }
