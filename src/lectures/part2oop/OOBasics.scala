@@ -34,8 +34,11 @@ class Person(name: String, val age: Short) {
   println(s"Author age is ${novel.authorAge}")
   println(s"Is written by Charles Dickens ${novel.isWrittenBy(authorCharlesDickens2)}")
 
+  println("-" * 20)
   val counter = new Counter;
-  counter.inc.count
+  counter.inc.inc.inc.inc.inc.print
+  println("-" * 20)
+
   /*
    Novel and a Writer
    Writer: first name, surname, year, - method fullname
