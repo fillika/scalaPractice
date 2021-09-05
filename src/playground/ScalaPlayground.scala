@@ -1,5 +1,5 @@
 package playground
 
 object ScalaPlayground extends App {
-  println("Hello from Scala Main Class")
+  def start = println("Hello from Scala Main Class")
 }
